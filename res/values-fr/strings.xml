@@ -1,32 +1,32 @@
 <resources>
     <string name="app_name">GmsCompat</string>
-    <string name="activity_name">Sandboxed Google Play</string>
-    <string name="reroute_location_requests_to_os_apis">Reroute location requests to the OS</string>
-    <string name="open_app_info">Open app info</string>
-    <string name="open_settings">Open settings</string>
-    <string name="persistent_fg_service_notif">Sandboxed Google Play is running</string>
+    <string name="activity_name">Bac à sable Google Play</string>
+    <string name="reroute_location_requests_to_os_apis">Rediger des demandes d'emplacement vers le système</string>
+    <string name="open_app_info">Ouvrir les infos sur l'appli</string>
+    <string name="open_settings">Ouvrir les paramètres</string>
+    <string name="persistent_fg_service_notif">Le bac à sable Google Play est en cours d'exécution</string>
 
-    <string name="usage_guide">Usage guide</string>
-    <string name="play_services">Play services</string>
+    <string name="usage_guide">Guide d'utilisation</string>
+    <string name="play_services">Services Play</string>
     <string name="play_store">Play Store</string>
     <string name="android_auto">Android Auto</string>
-<!--    <string name="google_settings">Google services &amp; preferences</string>-->
-    <string name="google_settings">Google Settings</string>
-    <string name="component_system_settings">%s app info</string>
-    <string name="gms_network_location_opt_in">Google Location Accuracy</string>
+<!--    <string name="google_settings">Services Google &amp; preferences</string>-->
+    <string name="google_settings">Paramètres Google</string>
+    <string name="component_system_settings">Infos sur l'appli %s</string>
+    <string name="gms_network_location_opt_in">Précision de l'emplacement Google</string>
     <string name="no_gms_network_location">
-"Google’s location service is disabled. Tap “%1$s” to learn more.
-If you decide to keep it disabled, consider enabling “%2$s” option to improve app compatibility."
+"Le service de localisation de Google est désactivé. Appuyez sur “%1$s” pour en savoir plus.
+Si vous décidez de le garder désactivé, envisagez d'activer l'option “%2$s” pour améliorer la compatibilité des applications."
     </string>
-    <string name="revoke_location_permission">Revoke the Location permission from Play services.</string>
+    <string name="revoke_location_permission">Révoquez l'autorisation de localisation des services Play.</string>
 
-    <string name="play_services_settings">Play services app info</string>
-    <string name="play_store_settings">Play Store app info</string>
+    <string name="play_services_settings">Infos sur l'appli des services Play</string>
+    <string name="play_store_settings">Infos sur l'appli Play Store</string>
 
-    <string name="potential_issues">Potential issues</string>
+    <string name="potential_issues">Problèmes potentiels</string>
 
-    <string name="geolocation">Geolocation</string>
-    <string name="location_access_is_off_for_all_apps">Location access is off for all apps.</string>
+    <string name="geolocation">Géolocalisation</string>
+    <string name="location_access_is_off_for_all_apps">L'accès à la Position est désactivé pour toutes les applications.</string>
     <string name="location_settings">Location settings</string>
     <string name="location_redirection_extra_permissions">
 "Location requests are rerouted to the OS, but Play services still has the Location permission."
