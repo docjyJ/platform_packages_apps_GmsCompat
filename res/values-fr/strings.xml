@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">GmsCompat</string>
+    <string name="activity_name">Sandboxed Google Play</string>
+    <string name="reroute_location_requests_to_os_apis">Reroute location requests to the OS</string>
+    <string name="open_app_info">Open app info</string>
+    <string name="open_settings">Open settings</string>
+    <string name="persistent_fg_service_notif">Sandboxed Google Play is running</string>
+
+    <string name="usage_guide">Usage guide</string>
+    <string name="play_services">Play services</string>
+    <string name="play_store">Play Store</string>
+    <string name="android_auto">Android Auto</string>
+<!--    <string name="google_settings">Google services &amp; preferences</string>-->
+    <string name="google_settings">Google Settings</string>
+    <string name="component_system_settings">%s app info</string>
+    <string name="gms_network_location_opt_in">Google Location Accuracy</string>
+    <string name="no_gms_network_location">
+"Google’s location service is disabled. Tap “%1$s” to learn more.
+If you decide to keep it disabled, consider enabling “%2$s” option to improve app compatibility."
+    </string>
+    <string name="revoke_location_permission">Revoke the Location permission from Play services.</string>
+
+    <string name="play_services_settings">Play services app info</string>
+    <string name="play_store_settings">Play Store app info</string>
+
+    <string name="potential_issues">Potential issues</string>
+
+    <string name="geolocation">Geolocation</string>
+    <string name="location_access_is_off_for_all_apps">Location access is off for all apps.</string>
+    <string name="location_settings">Location settings</string>
+    <string name="location_redirection_extra_permissions">
+"Location requests are rerouted to the OS, but Play services still has the Location permission."
+    </string>
+    <string name="play_services_no_location_permission">
+"Play services needs Location permission to be set to “%s”, and “Use precise location” needs to be enabled."
+    </string>
+    <string name="play_services_no_wifi_control_appop">
+"Play services needs the “Wi-Fi control” permission to scan for Wi-Fi networks, which is used to estimate location.
+This permission can be allowed in Settings ⮕ Apps ⮕ Special app access ⮕ Wi-Fi control."
+    </string>
+    <string name="play_services_no_ble_location">
+"Location service assisted by Bluetooth scanning requires the “Nearby devices” permission."
+    </string>
+    <string name="always_on_scanning_settings">Always-on scanning settings</string>
+    <string name="always_on_wifi_scanning_disabled">Always-on Wi-Fi scanning is disabled.</string>
+    <string name="always_on_bluetooth_scanning_disabled">Always-on Bluetooth scanning is disabled.</string>
+
+    <string name="push_notifications">Push notifications</string>
+    <string name="play_services_no_battery_exemption">
+"When device is idle, push notifications will be delayed to improve battery life.
+To receive them quicker, set “Battery usage” to “Unrestricted” in Play services app info."
+    </string>
+
+    <string name="pending_play_store_update_notif_title">Play Store needs to update %1$s</string>
+    <string name="pending_play_store_update_notif_text">It\'s recommended to allow this. Tap to proceed.</string>
+    <string name="play_store_pending_user_action_notif">Action required in Play Store</string>
+    <string name="missing_permission">Missing permission</string>
+    <string name="missing_optional_permission">Missing optional permission</string>
+    <string name="missing_app">Missing app</string>
+    <string name="play_store_missing_obb_permission_notif">To install this app, Play Store needs access to Android/obb folder</string>
+
+    <string name="missing_permission_nearby_exposurenotifications">
+"Play services needs the “Nearby devices” permission to enable Exposure Notifications"
+    </string>
+
+    <string name="missing_permission_nearby_NearbyShare">
+"Play services needs the “Nearby devices“ permission to enable Nearby Share"
+    </string>
+
+    <string name="notif_ch_missing_play_games_app">Missing Play Games app</string>
+    <string name="missing_play_games_app">%1$s needs the Play Games app</string>
+    <string name="install">Install</string>
+
+    <string name="notif_channel_bg_activity_start">Request to show a screen</string>
+    <string name="notif_bg_activity_start">%s needs to show a screen. Tap to allow</string>
+
+    <string name="notif_gmscore_missing_nearby_devices_perm_generic">Play services needs the “Nearby devices” permission</string>
+
+    <string name="notif_missing_nofications_perm">%1$s tried to show a notification</string>
+
+    <string name="notif_ch_gms_crash">Sandboxed Google Play crashed</string>
+    <string name="notif_gms_crash_title">%1$s has crashed</string>
+    <string name="notif_gms_crash_text">Tap to see the details</string>
+    <string name="notif_gms_crash_report">Report to developers</string>
+
+    <string name="notif_gmscore_power_exemption">
+"Push notifications will be delayed, because Play services app is not allowed to always run in the background. Tap to resolve."
+    </string>
+    <string name="dont_show_again">Don\'t show again</string>
+
+    <string name="missing_speech_services">This app needs the Speech Services component</string>
+
+    <string name="notif_contacts_sync_prompt">
+"To sync contacts from a Google account, Play services needs the Contacts permission. Tap to open settings."
+    </string>
+
+    <string name="menu_item_configure_play_store_updates">Configure Play Store updates</string>
+    <string name="msg_allow_updates_to_unknown_versions_by_play_store">
+"Select which components of sandboxed Google Play are allowed to be updated to unknown versions by the Play Store.
+
+Warning:
+Update to an unknown version may cause crashes and errors in sandboxed Google Play."
+    </string>
+
+    <string name="notif_screen_capture_is_running">Screen capture is running</string>
+
+    <string name="notif_GmsCore_missing_nearby_devices_perm_generic">%1$s requires Play services to have the “Nearby devices” permission</string>
+
+    <string name="notif_android_auto_needs_baseline_perms_title">Android Auto needs setup</string>
+    <string name="notif_android_auto_needs_baseline_perms_text">Go to Settings ➔ Apps ➔ Sandboxed Google Play ➔ Android Auto</string>
+</resources>
